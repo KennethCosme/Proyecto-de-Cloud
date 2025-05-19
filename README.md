@@ -90,24 +90,34 @@ python app.py
 
 - Azure SQL Database (S0 - nivel más básico) 
 
+![Costo](images/Azureprice.PNG)
+
 > Costo estimado sin beneficios gratuitos: $5 USD mensuales  
 
 ---
 
 ## 📁 Capturas del Portal de Azure
 
-Se incluyen capturas en la carpeta `/images` de:
 
 - App Service
-![App Service](images/Appservice.png)
+
+![App Service](images/Appservice.PNG)
+
 - SQL Database
-![SQL Database](images/Sqldatabase.png)
+
+![SQL Database](images/Sqldatabase.PNG)
+
 - Firewall configurado
-![Firewall configurado](images/Firewall.png)
+
+![Firewall configurado](images/Firewall.PNG)
+
 - Variables de entorno
-![Variables de entorno](images/Variables.png)
+
+![Variables de entorno](images/Variables.PNG)
+
 - GitHub Deployment Center
-![GitHub Deployment Center](images/Deplaoyment.png)
+
+![GitHub Deployment Center](images/Deployment.PNG)
 ---
 
 ## 📘 Lecciones Aprendidas
@@ -133,7 +143,7 @@ Además, aprendí cómo automatizar despliegues con GitHub Actions y entendí el
 ## 📄 Instrucciones para Reproducir el Proyecto
 
 ```bash
-git clone https://github.com/KennethCosme/azure_students_project
+git clone https://github.com/tu_usuario/azure_students_project
 cd azure_students_project
 python -m venv venv
 venv\Scripts\activate
@@ -142,12 +152,14 @@ pip install -r requirements.txt
 
 Crear base de datos o usar la ya configurada en Azure. Luego, definir estas variables de entorno:
 
-```
-SQL_SERVER=xxxxx.database.windows.net
-SQL_DATABASE=project_tasks
-SQL_USERNAME=admin@xxxxx
-SQL_PASSWORD=YourPassword123
-```
+
+| Nombre             | Valor                         |
+|--------------------|-------------------------------|
+| SQL_SERVER         | nombre-servidor.database.windows.net |
+| SQL_DATABASE       | nombre_base_datos             |
+| SQL_USERNAME       | nombre_usuario@nombre-servidor |
+| SQL_PASSWORD       | contraseña_segura             |
+
 
 Y ejecutar:
 
