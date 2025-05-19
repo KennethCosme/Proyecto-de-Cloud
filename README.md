@@ -62,6 +62,17 @@ python app.py
 ### 2. Configuración en Azure
 
 - Azure SQL Database creada desde el portal.
+1. Cree un recurso.
+2. Busque **"SQL Database"** y seleccióne la pestaña **"Básico"**
+   - **Nombre la base de datos**: ProyectoKcosme
+   - **Servidor**: Cree uno nuevo
+     - Nombre del servidor: proyectosqlserver
+     - Nombre de administrador: Proyectoadminuser
+     - Puse una contraseña segura
+4. Seleccione **"Plan Gratuito"**.
+
+>(base de datos y servidor ambas estan en East US 2)
+
 - Variables de entorno definidas en App Service:
   - `SQL_SERVER`
   - `SQL_DATABASE`
