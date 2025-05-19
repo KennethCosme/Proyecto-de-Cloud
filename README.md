@@ -147,7 +147,7 @@ Además, aprendí cómo automatizar despliegues con GitHub Actions y entendí el
 
 ## 📚 Repositorio del Código
 
-[https://github.com/KennethCosme](https://github.com/KennethCosme)
+[https://github.com/KennethCosme/Proyecto-de-Cloud](https://github.com/KennethCosme/Proyecto-de-Cloud)
 
 ---
 
