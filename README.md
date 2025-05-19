@@ -99,11 +99,15 @@ python app.py
 Se incluyen capturas en la carpeta `/images` de:
 
 - App Service
+![App Service](images/Appservice.png)
 - SQL Database
+![SQL Database](images/Sqldatabase.png)
 - Firewall configurado
+![Firewall configurado](images/Firewall.png)
 - Variables de entorno
+![Variables de entorno](images/Variables.png)
 - GitHub Deployment Center
-
+![GitHub Deployment Center](images/Deplaoyment.png)
 ---
 
 ## 📘 Lecciones Aprendidas
