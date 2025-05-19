@@ -124,7 +124,7 @@ python app.py
 
 - Variables de entorno
 
-![Variables de entorno](images/Variables.PNG)
+![Variables de entorno](images/Variable.PNG)
 
 - GitHub Deployment Center
 
